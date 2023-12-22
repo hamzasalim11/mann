@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">5
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesnewrg.css">
+    <script src="script.js"></script>
+    
+    <title>Document</title>
+</head>
+
+<body>
+    
+    
+    <div class="container">
+        <h1>نموذج الطالب الدولي في مدرسة مادراسا</h1>
+        <form name="registration"class="registratiom-form"onsubmit="return formvalidation()">
+            <table>
+
+                <tr>
+                    <td><label for="FullName">FullName:</label></td>
+                    <td><input type="text" name="Name" id="name"placeholder="your name" maxlength="20" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="text" name="Email" id="Email"placeholder="your email" required>
+                        
+
+                    
+                    </td>
+                </tr>
+                 <tr>
+                    <td><label for="password">StudentID:</label></td>
+                    <td><input type="password" name="password" id="password"placeholder="ID" required></td>
+                
+                 </tr>
+
+                 <tr>
+                    <td>
+                        <label for="birthday">Birthday:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="birthday" name="birthday" required>  </td>
+                 </tr>
+                 <tr>
+                    <td><label for="Phone Number">Guardian Number:</label></td>
+                    <td><input type="text" 
+                            onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="12" required></input>
+                      </td>
+                      </tr>
+                
+                   <tr>
+                    <td><label for="Phone Number">Phone Numbe:</label></td>
+                    <td><input type="text" 
+                            onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="12" required></input>
+                       
+                      </td>
+                      </tr>
+                
+                 </tr>
+
+                 <tr>
+                    <td><label for="Gender" >Gender:</label></td>
+                    <td>Male: <input type="radio" name="Gender" value="Male">
+                    Female:<input type="radio" name="Gender" value="Female">
+                    others:<input type="radio" name="Gender" value="orther">
+                        
+
+                    
+                 </tr>
+                 
+                    
+                 
+                 <tr>
+                    <td>
+                        <label for="Term">Term</label>
+
+                    </td>
+                    <td>
+                        <select name="Religion" id="Religion" required>
+                            <option value="">SELECT TERM</option>
+                            <option value="First Term">First Term</option>
+                            <option value="SECOND TERM">SECOND TERM</option>
+                            <option value="orthers">THIRD TERM</option>
+                                                       
+                        </select>
+                        </td>
+                                                </tr>
+                 <tr>
+                    <td>
+                        <label for="Religion">Religion</label>
+
+                    </td>
+                    <td>
+                        <select name="Religion" id="Religion" required>
+                            <option value="">SELECT RELIGION</option>
+                            <option value="ISlam">ISlam</option>
+                            <option value="#"></option>
+                            <option value="#"></option>
+                                                       
+                        </select>
+                        </td>
+                        </tr>
+
+                 <tr>
+                    <td>
+                        <label for="language">Language</label>
+                    </td>
+                    
+                    
+                    <td>
+                        <select name="languge" id="language" required>
+                            <option value="">SELECT LANGUAGE</option>
+                            <option value="ENGLISH">ENGLISH</option>
+                            <option value="YORUBA">YORUBA</option>
+                            <option value="HAUSA">HAUSA</option>
+                            <option value="SPANISH">SPANISH</option>
+                            <option value="ARABIC">ARABIC</option>
+                            
+
+
+                        </select>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <label for="country">Country</label>
+
+                    </td>
+                    <td>
+                        <select name="Country" id="Country" required>
+                            <option value="">SELECT COUNTRY</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Saudiya">Saudiya</option>
+                            <option value="USA">USA</option>
+                                                       
+                        </section>
+                        </td>
+                        </tr>
+                 <tr>
+                    <td><label for="abuot">Abuot:</label></td>
+                    <td><textarea name="abuot" id="abuot" placeholder="write about yourself...." required ></textarea></td>
+
+                 </tr>
+                 <tr>
+                    <td><label for="abuot">Address:</label></td>
+                    <td><textarea name="abuot" id="abuot" placeholder="youraddres...." required></textarea></td>
+
+                 </tr>
+                 <tr>
+                 <td>
+                    <label for="zeepcode">zeepcode:</label>
+                 </td>
+                 <td><input type="number" name="zeepcode" id="zeepcode" required></td>
+                 </tr>
+
+<tr>
+    <td colspan="5"><input type="submit" class="submit" value="Register" /></td>
+        
+</tr>
+<tr>
+   <td>
+<button><a href="Main menu.html">Back</a></button>
+    
+</tr>
+</td>
+    
+
+            </table>
+        
+
+
+        </form>
+    </div>
+</body>
+
+</html>
